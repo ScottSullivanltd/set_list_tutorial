@@ -9,7 +9,7 @@ require 'rails_helper'
    end
 
    it "can create a new artist" do
-     visit '/artist/new'
+     visit '/artists/new'
 
      fill_in('Name', with: 'Prince')
      click_button('Create Artist')
